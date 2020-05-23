@@ -9,7 +9,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
-import './layout.css';
+import GlobalStyle from '../themes/styles';
 
 interface Props {
   children?: React.ReactNodeArray;
@@ -28,6 +28,7 @@ const Layout: React.FC<Props> = ({ children }) => {
 
   return (
     <>
+      <GlobalStyle />
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
