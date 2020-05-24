@@ -9,7 +9,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
-import GlobalStyle from '../themes/styles';
+import GlobalStyle from './../styles/global';
 
 interface Props {
   children?: React.ReactNodeArray;
