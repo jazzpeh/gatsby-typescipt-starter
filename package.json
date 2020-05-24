@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-typescript-starter",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "A simple starter to get up and developing quickly with Gatsby in Typescript",
+  "version": "1.0.0",
+  "author": "Jazz Peh <jazzpeh@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.22.7",
@@ -38,7 +38,7 @@
     "typescript": "^3.9.3"
   },
   "keywords": [
-    "gatsby"
+    "gatsby", "typescript", "starter"
   ],
   "license": "MIT",
   "scripts": {
@@ -50,12 +50,5 @@
     "clean": "gatsby clean",
     "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Yaml Starter`,
-    description: `Kick off your next, great Gatsby project with this yaml starter. This barebones starter ships with the main Gatsby configuration files you might need. And with Typescript <3.`,
+    title: `Gatsby Typescript Starter`,
+    description: `Kick off your next, great Gatsby project with this typescript starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@jazzpeh`,
   },
   plugins: [
